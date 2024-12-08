@@ -19,6 +19,10 @@ app.use("/", (req, res) => {
   res.send("Welcome to the Email Service API ❤️");
 });
 
+app.get("/ping", (req, res) => {
+    res.json({ message: "Test route is working!" });
+  });
+
 app.post(
   "/api/send-email",
   validateApiKey,
