@@ -15,7 +15,7 @@ app.use(express.json());
 // Configure Multer for file uploads
 const upload = multer({ dest: 'uploads/' });
 
-app.get('/', (req, res) => {
+app.use('/', (req, res) => {
     res.send('Welcome to the Email Service API ❤️');
 });
 
