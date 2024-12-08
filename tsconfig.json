@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "./",          // Output compiled files in the same folder
+    "rootDir": "./",         // Set the root directory for TypeScript files
+    "module": "CommonJS",    // Use CommonJS module system (default for Node.js)
+    "target": "ES6",         // Target ES6 or newer
+    "strict": true,          // Enable strict type checking
+    "esModuleInterop": true, // Allow default imports for CommonJS modules
+    "allowJs": true          // Allow JavaScript files
+  },
+  "include": ["./**/*.ts"],  // Include all TypeScript files in the project
+  "exclude": ["node_modules"] // Exclude dependencies
+}
