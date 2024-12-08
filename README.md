@@ -171,7 +171,9 @@ email-service/
 
 ##Troubleshooting
 - Invalid login credentials: Ensure correct email/password in the .env file. If using Gmail, enable "less secure apps" or use an app password.
+
 - File deletion errors: Verify the file paths and permissions for the uploads directory.
+
 ---
 
 ## Contributing
