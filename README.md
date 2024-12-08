@@ -74,7 +74,7 @@ npm run build
 npm start
 ```
 ## API Documentation
-## Send Email
+# Send Email
 
 Endpoint: POST /api/send-email
 
@@ -135,7 +135,7 @@ curl -X POST http://localhost:3000/api/send-email \
   "details": "Error details here"
 }
 ```
-<hr>
+---
 
 ### Folder Structure
 ```bash
@@ -155,26 +155,26 @@ email-service/
 ├── README.md                   # Project documentation
 
 ```
-<hr>
+---
 
 ## Dependencies
 # Core Dependencies
-. Express
-. TypeScript
-. Nodemailer
-. Multer
+- Express
+- TypeScript
+- Nodemailer
+- Multer
 # Dev Tools
-. ts-node
-. dotenv
+- ts-node
+- dotenv
 
-<hr>
+---
 
 ##Troubleshooting
-. Invalid login credentials: Ensure correct email/password in the .env file. If using Gmail, enable "less secure apps" or use an app password.
-. File deletion errors: Verify the file paths and permissions for the uploads directory.
-<hr>
+- Invalid login credentials: Ensure correct email/password in the .env file. If using Gmail, enable "less secure apps" or use an app password.
+- File deletion errors: Verify the file paths and permissions for the uploads directory.
+---
 
 ## Contributing
-Contributions are welcome! Please create an issue or pull request to suggest changes.
-<hr>
+Contributions are welcome! 😊 Please create an issue or pull request to suggest changes.
+---
 
