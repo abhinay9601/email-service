@@ -6,7 +6,7 @@
   "Author": "Abhinay Singh",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc && node src/app.js",
+    "start": "tsc && node dist/app.js",
     "build": "tsc"
   },
   "keywords": [],
