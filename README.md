@@ -81,15 +81,14 @@ Endpoint: POST /api/send-email
 # Headers:
 
 x-api-key: Your secure API key.
-Content-Type: multipart/form-data
 
 # Body Parameters:
 
 to (string): Recipient email address (required).
 subject (string): Email subject (required).
-text (string): Plain text content (optional).
-html (string): HTML content (optional).
-attachments (file[]): One or more files to attach (optional).
+text (string): Plain text content (required).
+html (string): HTML content (required).
+attachments: Array<{ filename: string, content: any }> (optional)
 
 # Example cURL Request:
 ```bash
