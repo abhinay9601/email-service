@@ -2,6 +2,7 @@
 
 An Express.js-based email service that allows users to send emails with optional attachments via API calls. It includes request validation with an API key and utilizes TypeScript for enhanced type safety.
 
+Check the project at https://email-service-coral.vercel.app
 ---
 
 ## Features
@@ -92,7 +93,7 @@ attachments: Array<{ filename: string, content: any }> (optional)
 
 # Example cURL Request:
 ```bash
-curl -X POST http://localhost:3000/api/send-email \
+curl -X POST https://email-service-coral.vercel.app/api/send-email \
 -H "x-api-key: your-secure-api-key" \
 -F "to=recipient@example.com" \
 -F "subject=Test Email with Attachments" \
